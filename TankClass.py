@@ -1,5 +1,6 @@
 import math
 
+
 class WaterTank:
     def __init__(self, tank_type, length_or_radius, width=None, height=None):
         self.tank_type = tank_type
@@ -19,6 +20,7 @@ class WaterTank:
         else:
             raise ValueError("Invalid tank type. Must be 'rectangular' or 'round'")
         return volume
+
 
 # Example usage:
 # Create a rectangular water tank with length 10 meters, width 5 meters, and height 2 meters
